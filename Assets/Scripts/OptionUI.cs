@@ -8,6 +8,15 @@ public class OptionUI : MonoBehaviour
     public Transform startPos;
     public Transform endPos;
 
+    private void Start()
+    {
+        timeBar.transform.localScale = new Vector3(
+            0, 
+            timeBar.transform.localScale.y,
+            timeBar.transform.localScale.z
+        );
+    }
+
     private void OnEnable()
     {
         GetComponent<Option>().OnOptionChange += Display;

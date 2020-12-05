@@ -7,7 +7,7 @@ public class Option : MonoBehaviour
 {
     public event Action<int, int> OnOptionChange;
     public int currentTime = 0;
-    private int maxTime = 1000;
+    [SerializeField]private int maxTime = 1000;
 
     private void OnCollisionStay2D(Collision2D collision)
     {

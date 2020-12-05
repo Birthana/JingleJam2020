@@ -7,6 +7,9 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public float jumpForce;
     public bool isJumping = false;
+
+    public GameObject playerFeet;
+
     private Rigidbody2D rb;
 
     private void Start()
