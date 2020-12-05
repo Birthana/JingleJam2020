@@ -4,12 +4,20 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    public BoxCollider2D enemyFeet;
     private float cooldown = 2.0f;
     private bool isOnCooldown;
+
+    private void Start()
+    {
+        enemyFeet.gameObject.SetActive(false);
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         CheckIfSteppedOn(collision.gameObject);
+        if (collision.gameObject.layer == 10)
+            enemyFeet.gameObject.SetActive(true);
     }
 
     private void OnTriggerStay2D(Collider2D collision)

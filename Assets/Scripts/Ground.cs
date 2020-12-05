@@ -6,6 +6,7 @@ public class Ground : MonoBehaviour
 {
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        collision.gameObject.GetComponent<PlayerController>().isJumping = false;
+        if(collision.gameObject.GetComponent<PlayerController>())
+            collision.gameObject.GetComponent<PlayerController>().isJumping = false;
     }
 }

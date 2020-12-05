@@ -11,11 +11,14 @@ public class Option : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D collision)
     {
-        currentTime++;
-        OnOptionChange?.Invoke(currentTime, maxTime);
-        if (currentTime >= maxTime)
+        if (collision.gameObject.GetComponent<PlayerController>())
         {
-            Debug.Log("Option Chosen.");
+            currentTime++;
+            OnOptionChange?.Invoke(currentTime, maxTime);
+            if (currentTime >= maxTime)
+            {
+                Debug.Log("Option Chosen.");
+            }
         }
     }
 }
