@@ -1,43 +1,31 @@
 fileFormatVersion: 2
-guid: c9a242d59942adf409cd0c1292620779
+guid: 48d62484b93e8c742a12a05fc848c9d9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6874279408544102006
-    second: Caves_Tileset_0
+      213: 6687544792209191007
+    second: JamKnight Running_0
   - first:
-      213: 4286074513409735422
-    second: Caves_Tileset_1
+      213: 8265352266328912392
+    second: JamKnight Running_1
   - first:
-      213: 48736680930026889
-    second: Caves_Tileset_2
+      213: -1445492400062616319
+    second: JamKnight Running_2
   - first:
-      213: 6130092693082746441
-    second: Caves_Tileset_3
+      213: -883616242226958283
+    second: JamKnight Running_3
   - first:
-      213: -8528396690715730818
-    second: Caves_Tileset_4
+      213: 7656476099826107116
+    second: JamKnight Running_4
   - first:
-      213: -442395162045477564
-    second: Caves_Tileset_5
+      213: 5489018582914042796
+    second: JamKnight Running_5
   - first:
-      213: -2107244337266052617
-    second: Caves_Tileset_6
+      213: -8121978467603630596
+    second: JamKnight Running_6
   - first:
-      213: 942043227588369652
-    second: Caves_Tileset_7
-  - first:
-      213: 4026222788727697054
-    second: Caves_Tileset_8
-  - first:
-      213: 7832575029141033849
-    second: Caves_Tileset_9
-  - first:
-      213: -1673244806786155656
-    second: Caves_Tileset_10
-  - first:
-      213: 166433091513108443
-    second: Caves_Tileset_11
+      213: -8685496120053803860
+    second: JamKnight Running_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -125,22 +113,127 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 0
+    overridden: 1
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Caves_Tileset_0
+      name: JamKnight Running_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50742f6e8eeecc50800000000000000
+      internalID: 6687544792209191007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamKnight Running_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8023102381e64b270800000000000000
+      internalID: 8265352266328912392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamKnight Running_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10dadb8125490fbe0800000000000000
+      internalID: -1445492400062616319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamKnight Running_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530fb4495b3ccb3f0800000000000000
+      internalID: -883616242226958283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamKnight Running_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce247617274414a60800000000000000
+      internalID: 7656476099826107116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamKnight Running_5
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 64
         width: 32
         height: 32
@@ -151,80 +244,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8942f6ac47a990a0800000000000000
-      internalID: -6874279408544102006
+      spriteID: cab0c10b159ec2c40800000000000000
+      internalID: 5489018582914042796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Caves_Tileset_1
+      name: JamKnight Running_6
       rect:
         serializedVersion: 2
-        x: 33
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: efa74a4bf023b7b30800000000000000
-      internalID: 4286074513409735422
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Caves_Tileset_2
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 985ad5ac0c52da000800000000000000
-      internalID: 48736680930026889
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Caves_Tileset_3
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94e2a6363d6721550800000000000000
-      internalID: 6130092693082746441
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Caves_Tileset_4
-      rect:
-        serializedVersion: 2
-        x: 1
+        x: 0
         y: 32
         width: 32
         height: 32
@@ -235,80 +265,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7c954a256c05a980800000000000000
-      internalID: -8528396690715730818
+      spriteID: cf53d15ad9fe84f80800000000000000
+      internalID: -8121978467603630596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Caves_Tileset_5
+      name: JamKnight Running_7
       rect:
         serializedVersion: 2
-        x: 33
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 44d8deba1fb4cd9f0800000000000000
-      internalID: -442395162045477564
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Caves_Tileset_6
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7f1bd4e907091c2e0800000000000000
-      internalID: -2107244337266052617
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Caves_Tileset_7
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4fc9777035fc21d00800000000000000
-      internalID: 942043227588369652
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Caves_Tileset_8
-      rect:
-        serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
         width: 32
         height: 32
@@ -319,71 +286,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9e62b46b4400e730800000000000000
-      internalID: 4026222788727697054
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Caves_Tileset_9
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 973db808d75e2bc60800000000000000
-      internalID: 7832575029141033849
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Caves_Tileset_10
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87b7e35a6b077c8e0800000000000000
-      internalID: -1673244806786155656
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Caves_Tileset_11
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd74282d30a4f4200800000000000000
-      internalID: 166433091513108443
+      spriteID: ca4d82aeb4be67780800000000000000
+      internalID: -8685496120053803860
       vertices: []
       indices: 
       edges: []

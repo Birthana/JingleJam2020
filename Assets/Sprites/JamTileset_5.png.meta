@@ -1,82 +1,109 @@
 fileFormatVersion: 2
-guid: 3ccf8a40ebaab6f43999d67932d2d79c
+guid: 6d25d8f16b5d5a344b9953e526fc7269
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8066853472837959096
-    second: JamTileset_3_0
+      213: 8315349007210007117
+    second: JamTileset_5_0
   - first:
-      213: -6099524511860214837
-    second: JamTileset_3_1
+      213: -6539250510154254508
+    second: JamTileset_5_1
   - first:
-      213: -3850919339904757987
-    second: JamTileset_3_2
+      213: 904070780162354630
+    second: JamTileset_5_2
   - first:
-      213: -4654787513210952761
-    second: JamTileset_3_3
+      213: -8089994763636821883
+    second: JamTileset_5_3
   - first:
-      213: -6889896806081985493
-    second: JamTileset_3_4
+      213: 1834347655986080352
+    second: JamTileset_5_4
   - first:
-      213: 1001420503538943536
-    second: JamTileset_3_5
+      213: 2535484268532401757
+    second: JamTileset_5_5
   - first:
-      213: 4386697711435555696
-    second: JamTileset_3_6
+      213: 7578125810925741029
+    second: JamTileset_5_6
   - first:
-      213: 747034094459124073
-    second: JamTileset_3_7
+      213: -8138644870195869065
+    second: JamTileset_5_7
   - first:
-      213: 3689206156359222558
-    second: JamTileset_3_8
+      213: -6755549299198689436
+    second: JamTileset_5_8
   - first:
-      213: 8740583492444737146
-    second: JamTileset_3_9
+      213: 27765574632089696
+    second: JamTileset_5_9
   - first:
-      213: 6090296496084778493
-    second: JamTileset_3_10
+      213: 5394160826336161423
+    second: JamTileset_5_10
   - first:
-      213: 3962056284687351604
-    second: JamTileset_3_11
+      213: 1443144649725888669
+    second: JamTileset_5_11
   - first:
-      213: -4193798499166419672
-    second: JamTileset_3_12
+      213: -8390461183061229735
+    second: JamTileset_5_12
   - first:
-      213: 6685397289804740489
-    second: JamTileset_3_13
+      213: 8214085942306010181
+    second: JamTileset_5_13
   - first:
-      213: 9192826320050663378
-    second: JamTileset_3_14
+      213: 6781580571840008826
+    second: JamTileset_5_14
   - first:
-      213: 5709653441273328857
-    second: JamTileset_3_15
+      213: 710243066401079073
+    second: JamTileset_5_15
   - first:
-      213: -8807300509586350344
-    second: JamTileset_3_16
+      213: -6585617821488127970
+    second: JamTileset_5_16
   - first:
-      213: 8778485660884059014
-    second: JamTileset_3_17
+      213: -105556007231749804
+    second: JamTileset_5_17
   - first:
-      213: 8967349341051385837
-    second: JamTileset_3_18
+      213: -6062857921864570174
+    second: JamTileset_5_18
   - first:
-      213: -8694732387002037105
-    second: JamTileset_3_19
+      213: -608392876739894196
+    second: JamTileset_5_19
   - first:
-      213: -114267190536140685
-    second: JamTileset_3_20
+      213: -1756136972622351509
+    second: JamTileset_5_20
   - first:
-      213: 2955763102311032076
-    second: JamTileset_3_21
+      213: -6335908506374076480
+    second: JamTileset_5_21
   - first:
-      213: 283101734777264785
-    second: JamTileset_3_22
+      213: -9152265342834911444
+    second: JamTileset_5_22
   - first:
-      213: -7550941750174757385
-    second: JamTileset_3_23
+      213: -6154517550083203320
+    second: JamTileset_5_23
   - first:
-      213: 1731246502872681063
-    second: JamTileset_3_24
+      213: -7405302815039970917
+    second: JamTileset_5_24
+  - first:
+      213: -7709191912498355856
+    second: JamTileset_5_25
+  - first:
+      213: -2122530557946667782
+    second: JamTileset_5_26
+  - first:
+      213: -6094469702665736447
+    second: JamTileset_5_27
+  - first:
+      213: 2150194162659452743
+    second: JamTileset_5_28
+  - first:
+      213: -4322295873883323485
+    second: JamTileset_5_29
+  - first:
+      213: 3264171677334824032
+    second: JamTileset_5_30
+  - first:
+      213: 929336446659489836
+    second: JamTileset_5_31
+  - first:
+      213: 72227142214117786
+    second: JamTileset_5_32
+  - first:
+      213: -4363676625268079246
+    second: JamTileset_5_33
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -176,7 +203,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: JamTileset_3_0
+      name: JamTileset_5_0
       rect:
         serializedVersion: 2
         x: 0
@@ -190,14 +217,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8420e58a187cc0090800000000000000
-      internalID: -8066853472837959096
+      spriteID: d4a462e8ddd066370800000000000000
+      internalID: 8315349007210007117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_1
+      name: JamTileset_5_1
       rect:
         serializedVersion: 2
         x: 32
@@ -211,14 +238,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc3b8cbe5c22a5ba0800000000000000
-      internalID: -6099524511860214837
+      spriteID: 457b6f4be4aef35a0800000000000000
+      internalID: -6539250510154254508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_2
+      name: JamTileset_5_2
       rect:
         serializedVersion: 2
         x: 64
@@ -232,14 +259,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1f8b4e6349ce8ac0800000000000000
-      internalID: -3850919339904757987
+      spriteID: 6cd2367a597eb8c00800000000000000
+      internalID: 904070780162354630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_3
+      name: JamTileset_5_3
       rect:
         serializedVersion: 2
         x: 96
@@ -253,14 +280,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c3232a3b6fd66fb0800000000000000
-      internalID: -4654787513210952761
+      spriteID: 58038a600a09abf80800000000000000
+      internalID: -8089994763636821883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_4
+      name: JamTileset_5_4
       rect:
         serializedVersion: 2
         x: 128
@@ -274,14 +301,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b24826eeb5b2260a0800000000000000
-      internalID: -6889896806081985493
+      spriteID: 06aee9d6979e47910800000000000000
+      internalID: 1834347655986080352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_5
+      name: JamTileset_5_5
       rect:
         serializedVersion: 2
         x: 160
@@ -295,14 +322,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0364b3864a2c5ed00800000000000000
-      internalID: 1001420503538943536
+      spriteID: d5607773289df2320800000000000000
+      internalID: 2535484268532401757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_6
+      name: JamTileset_5_6
       rect:
         serializedVersion: 2
         x: 0
@@ -316,14 +343,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 073a22ba35ea0ec30800000000000000
-      internalID: 4386697711435555696
+      spriteID: 5e3a27f3649ea2960800000000000000
+      internalID: 7578125810925741029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_7
+      name: JamTileset_5_7
       rect:
         serializedVersion: 2
         x: 32
@@ -337,14 +364,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 969775b0d8ffd5a00800000000000000
-      internalID: 747034094459124073
+      spriteID: 77a8be66c99bd0f80800000000000000
+      internalID: -8138644870195869065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_8
+      name: JamTileset_5_8
       rect:
         serializedVersion: 2
         x: 64
@@ -358,14 +385,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e15c9f4f371b23330800000000000000
-      internalID: 3689206156359222558
+      spriteID: 46f7f9e64b77f32a0800000000000000
+      internalID: -6755549299198689436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_9
+      name: JamTileset_5_9
       rect:
         serializedVersion: 2
         x: 96
@@ -379,14 +406,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7ecfc4706acc4970800000000000000
-      internalID: 8740583492444737146
+      spriteID: 0682eec94a4a26000800000000000000
+      internalID: 27765574632089696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_10
+      name: JamTileset_5_10
       rect:
         serializedVersion: 2
         x: 128
@@ -400,14 +427,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfd70f93564158450800000000000000
-      internalID: 6090296496084778493
+      spriteID: f8e281b21b8ebda40800000000000000
+      internalID: 5394160826336161423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_11
+      name: JamTileset_5_11
       rect:
         serializedVersion: 2
         x: 160
@@ -421,14 +448,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43fb4e4f23d0cf630800000000000000
-      internalID: 3962056284687351604
+      spriteID: d98ca6ea964170410800000000000000
+      internalID: 1443144649725888669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_12
+      name: JamTileset_5_12
       rect:
         serializedVersion: 2
         x: 0
@@ -442,14 +469,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8258e951c72acc5c0800000000000000
-      internalID: -4193798499166419672
+      spriteID: 95f7ee132081f8b80800000000000000
+      internalID: -8390461183061229735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_13
+      name: JamTileset_5_13
       rect:
         serializedVersion: 2
         x: 32
@@ -463,14 +490,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 987bb211a6d47cc50800000000000000
-      internalID: 6685397289804740489
+      spriteID: 544fda9f4ab4ef170800000000000000
+      internalID: 8214085942306010181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_14
+      name: JamTileset_5_14
       rect:
         serializedVersion: 2
         x: 64
@@ -484,14 +511,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2df2b7815da739f70800000000000000
-      internalID: 9192826320050663378
+      spriteID: a72d63889930d1e50800000000000000
+      internalID: 6781580571840008826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_15
+      name: JamTileset_5_15
       rect:
         serializedVersion: 2
         x: 96
@@ -505,14 +532,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d4fea5cd83cc3f40800000000000000
-      internalID: 5709653441273328857
+      spriteID: 12f350d4e4a4bd900800000000000000
+      internalID: 710243066401079073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_16
+      name: JamTileset_5_16
       rect:
         serializedVersion: 2
         x: 128
@@ -526,14 +553,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fe1dff79de26c580800000000000000
-      internalID: -8807300509586350344
+      spriteID: e10e7b3cb7f2b94a0800000000000000
+      internalID: -6585617821488127970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_17
+      name: JamTileset_5_17
       rect:
         serializedVersion: 2
         x: 160
@@ -547,14 +574,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 683cadab23273d970800000000000000
-      internalID: 8778485660884059014
+      spriteID: 4510b05ee5df88ef0800000000000000
+      internalID: -105556007231749804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_18
+      name: JamTileset_5_18
       rect:
         serializedVersion: 2
         x: 0
@@ -568,14 +595,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de77332f6bc627c70800000000000000
-      internalID: 8967349341051385837
+      spriteID: 2ca699ba7d66cdba0800000000000000
+      internalID: -6062857921864570174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_19
+      name: JamTileset_5_19
       rect:
         serializedVersion: 2
         x: 32
@@ -589,14 +616,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8cc8afe5fa165780800000000000000
-      internalID: -8694732387002037105
+      spriteID: c446a0ae6ed8e87f0800000000000000
+      internalID: -608392876739894196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_20
+      name: JamTileset_5_20
       rect:
         serializedVersion: 2
         x: 64
@@ -610,14 +637,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3788c9a789a0a6ef0800000000000000
-      internalID: -114267190536140685
+      spriteID: b633ae15ab2f0a7e0800000000000000
+      internalID: -1756136972622351509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_21
+      name: JamTileset_5_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7823458c45218a0800000000000000
+      internalID: -6335908506374076480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTileset_5_22
       rect:
         serializedVersion: 2
         x: 0
@@ -631,14 +679,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c05a47991eaf40920800000000000000
-      internalID: 2955763102311032076
+      spriteID: c27d436592f9cf080800000000000000
+      internalID: -9152265342834911444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_22
+      name: JamTileset_5_23
       rect:
         serializedVersion: 2
         x: 32
@@ -652,14 +700,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19a12b02787cde300800000000000000
-      internalID: 283101734777264785
+      spriteID: 80f126f65e2c69aa0800000000000000
+      internalID: -6154517550083203320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_23
+      name: JamTileset_5_24
       rect:
         serializedVersion: 2
         x: 64
@@ -673,14 +721,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fdca2d1c7aa53790800000000000000
-      internalID: -7550941750174757385
+      spriteID: b91a75f13541b3990800000000000000
+      internalID: -7405302815039970917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JamTileset_3_24
+      name: JamTileset_5_25
       rect:
         serializedVersion: 2
         x: 96
@@ -694,8 +742,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76a0d56958f960810800000000000000
-      internalID: 1731246502872681063
+      spriteID: 071a836fcc2730590800000000000000
+      internalID: -7709191912498355856
       vertices: []
       indices: 
       edges: []
