@@ -32,6 +32,8 @@ public class PlayerController : MonoBehaviour
         else
         {
             anim.SetBool("isRunning", true);
+            if(!isJumping)
+                AudioManager.instance.PlaySound(Random.Range(0,2) + 4);
             if(h > 0)
             {
                 transform.rotation = new Quaternion(0, 0, 0, 0);

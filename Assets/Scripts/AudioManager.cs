@@ -29,6 +29,8 @@ public class AudioManager : MonoBehaviour
 
     public void PlaySound(int audioClip)
     {
+        if (soundPlayer.isPlaying)
+            return;
         soundPlayer.clip = audios[audioClip];
         soundPlayer.Play();
     }
