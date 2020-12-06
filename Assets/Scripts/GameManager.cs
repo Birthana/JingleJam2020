@@ -10,6 +10,11 @@ public class GameManager : MonoBehaviour
     public Sprite soundOn;
     public Sprite soundOff;
 
+    private void Start()
+    {
+        AudioManager.instance.PlayBackGround(6);
+    }
+
     public void Pause()
     {
         Time.timeScale = (Time.timeScale == 1.0f) ? 0f : 1f;

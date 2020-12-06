@@ -53,6 +53,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b82e98f7e67002d4db5c5a962a5408be, type: 3}
   - {fileID: 8300000, guid: 199328759a178bd46b1374b30abc089b, type: 3}
   - {fileID: 8300000, guid: ec5b47c1365cf834d88364812b538b70, type: 3}
+  - {fileID: 8300000, guid: a273ac6dd3d612446a0f84dafda8743b, type: 3}
   backgroundPlayer: {fileID: 2031657630164830604}
   soundPlayer1: {fileID: 2031657630164830605}
   soundPlayer2: {fileID: 2951204506732638324}

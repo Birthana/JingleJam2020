@@ -53,6 +53,7 @@ public class AudioManager : MonoBehaviour
         {
             isOff = false;
             backgroundPlayer.enabled = true;
+            backgroundPlayer.Play();
             soundPlayer1.enabled = true;
             soundPlayer2.enabled = true;
         }

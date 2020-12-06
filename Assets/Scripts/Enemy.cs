@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public BoxCollider2D enemyFeet;
-    private float cooldown = 2.0f;
+    private float cooldown = 1.0f;
     private bool isOnCooldown;
 
     private void Start()
@@ -15,7 +15,7 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        CheckIfSteppedOn(collision.gameObject);
+        //CheckIfSteppedOn(collision.gameObject);
         if (collision.gameObject.layer == 10)
             enemyFeet.gameObject.SetActive(true);
     }
@@ -35,7 +35,6 @@ public class Enemy : MonoBehaviour
             Vector3 playerFeet = collideObject.GetComponent<PlayerController>().playerFeet.transform.position;
             if (playerFeet.y > transform.position.y)
             {
-                Debug.Log($"Player's Feet Position : {playerFeet.y} is greater than Enemy's Center Position : {transform.position.y}");
                 Destroy(gameObject);
             }
         }
@@ -43,9 +42,13 @@ public class Enemy : MonoBehaviour
 
     IEnumerator Damaging(GameObject player)
     {
-        isOnCooldown = true;
-        player.GetComponent<Health>()?.TakeDamage();
-        yield return new WaitForSeconds(cooldown);
-        isOnCooldown = false;
+        if (player.GetComponent<PlayerController>())
+        {
+            Debug.Log("Damaging");
+            isOnCooldown = true;
+            player.GetComponent<PlayerHealth>().TakeDamage();
+            yield return new WaitForSeconds(cooldown);
+            isOnCooldown = false;
+        }
     }
 }

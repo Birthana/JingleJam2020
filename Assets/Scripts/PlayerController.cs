@@ -9,8 +9,10 @@ public class PlayerController : MonoBehaviour
     public float fallMultiplier = 2.5f;
     public float lowJumpMultiplier = 2.0f;
     public bool isJumping = false;
+    public bool isAttacking = false;
 
     public GameObject playerFeet;
+    public GameObject weaponHitbox;
 
     private Rigidbody2D rb;
     private Animator anim;
@@ -45,6 +47,7 @@ public class PlayerController : MonoBehaviour
         }
         rb.velocity = new Vector2(h * speed, rb.velocity.y);
         CheckJump();
+        CheckAttack();
         ApplyMultipliers();
     }
 
@@ -61,6 +64,24 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetBool("isJumping", false);
         }
+    }
+
+    private void CheckAttack()
+    {
+        if (Input.GetKeyDown(KeyCode.Z) && !isAttacking)
+        {
+            StartCoroutine(Attacking());
+        }
+    }
+
+    IEnumerator Attacking()
+    {
+        isAttacking = true;
+        weaponHitbox.SetActive(true);
+        AudioManager.instance.PlaySound(1);
+        yield return new WaitForSeconds(0.5f);
+        weaponHitbox.SetActive(false);
+        isAttacking = false;
     }
 
     private void ApplyMultipliers()
