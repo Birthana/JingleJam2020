@@ -1,15 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
+    public LayerMask groundLayer;
+    public LayerMask npcLayer;
     public float speed;
     public float jumpForce;
     public float fallMultiplier = 2.5f;
     public float lowJumpMultiplier = 2.0f;
     public bool isJumping = false;
     public bool isAttacking = false;
+    public bool isTalking = false;
+    private bool isConversing = false;
 
     public GameObject playerFeet;
     public GameObject weaponHitbox;
@@ -26,6 +31,9 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        CheckTalk();
+        if (isTalking)
+            return;
         float h = Input.GetAxis("Horizontal");
         if (h == 0)
         {
@@ -46,14 +54,23 @@ public class PlayerController : MonoBehaviour
             }
         }
         rb.velocity = new Vector2(h * speed, rb.velocity.y);
+        CheckIfOutOfBounds();
         CheckJump();
         CheckAttack();
         ApplyMultipliers();
     }
 
+    private void CheckIfOutOfBounds()
+    {
+        if (transform.position.y < -7.0f)
+        {
+            GetComponent<PlayerHealth>().TakeDamage();
+        }
+    }
+
     private void CheckJump()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && !isJumping)
+        if (Input.GetKeyDown(KeyCode.Space) && !isJumping && isGrounded())
         {
             isJumping = true;
             rb.velocity = Vector2.up * jumpForce;
@@ -64,6 +81,20 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetBool("isJumping", false);
         }
+    }
+
+    private bool isGrounded()
+    {
+        BoxCollider2D collider = GetComponent<BoxCollider2D>();
+        RaycastHit2D raycastHit = Physics2D.BoxCast(collider.bounds.center, collider.bounds.size, 0f, Vector2.down, 1f, groundLayer);
+        return raycastHit.collider != null;
+    }
+
+    private bool isNextToNPC()
+    {
+        BoxCollider2D collider = GetComponent<BoxCollider2D>();
+        RaycastHit2D raycastHit = Physics2D.Raycast(collider.bounds.center, Vector2.right, collider.bounds.extents.x + 0.01f, npcLayer);
+        return raycastHit.collider != null;
     }
 
     private void CheckAttack()
@@ -82,6 +113,45 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         weaponHitbox.SetActive(false);
         isAttacking = false;
+    }
+
+    public void CheckTalk()
+    {
+        if (Input.GetKeyDown(KeyCode.X) && !isTalking && isNextToNPC())
+        {
+            StartCoroutine(Talking());
+        }
+        else if(Input.GetKeyDown(KeyCode.X) && !isConversing && isNextToNPC())
+        {
+            StartCoroutine(Conversing());
+        }
+    }
+
+    IEnumerator Talking()
+    {
+        isTalking = true;
+        rb.velocity = new Vector2(0, rb.velocity.y);
+        transform.rotation = new Quaternion(0, 0, 0, 0);
+        anim.SetBool("isTalking", true);
+        yield return new WaitForSeconds(0.1f);
+        BoxCollider2D collider = GetComponent<BoxCollider2D>();
+        RaycastHit2D raycastHit = Physics2D.Raycast(collider.bounds.center, Vector2.right, collider.bounds.extents.x + 0.01f, npcLayer);
+        TextMeshPro npcDialogueBox = raycastHit.collider.gameObject.GetComponent<NPC>().dialogueBox;
+        DialogueManager.instance.DisplayDialogue(npcDialogueBox);
+    }
+
+    IEnumerator Conversing()
+    {
+        isConversing = true;
+        DialogueManager.instance.DisplayNext();
+        yield return new WaitForSeconds(0.1f);
+        isConversing = false;
+    }
+
+    public void StopTalking()
+    {
+        isTalking = false;
+        anim.SetBool("isTalking", false);
     }
 
     private void ApplyMultipliers()

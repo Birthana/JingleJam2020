@@ -1,0 +1,11 @@
+0:Hi, Knight.
+1:Hi back.
+0:What are you
+0:doing?
+1:I'm waiting.
+0:For what?
+1:For you to
+1:leave me.
+0:Oh, bye.
+0:Jerk.
+1:Bye

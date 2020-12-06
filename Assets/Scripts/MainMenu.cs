@@ -15,11 +15,22 @@ public class MainMenu : MonoBehaviour
 
     private void Start()
     {
+        /**
         playButton.SetActive(true);
         creditsButton.SetActive(true);
         quitButton.SetActive(true);
         backButton.SetActive(false);
         creditsText.gameObject.SetActive(false);
+        */
+    }
+
+    private void Update()
+    {
+        if (Input.anyKey)
+        {
+            Debug.Log("Pressed.");
+            Play();
+        }
     }
 
     public void Play()

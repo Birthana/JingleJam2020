@@ -1,0 +1,8 @@
+Hi, Player.
+I'm a Knight.
+I can jump.
+I attack.
+I protect.
+Not really.
+Got to run.
+Bye, Player.

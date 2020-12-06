@@ -17,7 +17,6 @@ public class Health : MonoBehaviour
         currentHealth--;
         if (currentHealth <= 0)
         {
-            Debug.Log("Is Dead.");
             Destroy(gameObject);
         }
     }
