@@ -12,7 +12,7 @@ public class Health : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-    public void TakeDamage()
+    public virtual void TakeDamage()
     {
         currentHealth--;
         if (currentHealth <= 0)
