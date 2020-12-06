@@ -109,8 +109,10 @@ public class PlayerController : MonoBehaviour
     {
         isAttacking = true;
         weaponHitbox.SetActive(true);
+        anim.SetBool("isAttacking", true);
         AudioManager.instance.PlaySound(1);
         yield return new WaitForSeconds(0.5f);
+        anim.SetBool("isAttacking", false);
         weaponHitbox.SetActive(false);
         isAttacking = false;
     }
@@ -152,6 +154,18 @@ public class PlayerController : MonoBehaviour
     {
         isTalking = false;
         anim.SetBool("isTalking", false);
+    }
+
+    public void PlayHurtAnimation()
+    {
+        StartCoroutine(Hurting());
+    }
+
+    IEnumerator Hurting()
+    {
+        anim.SetBool("isHurt", true);
+        yield return new WaitForSeconds(0.5f);
+        anim.SetBool("isHurt", false);
     }
 
     private void ApplyMultipliers()

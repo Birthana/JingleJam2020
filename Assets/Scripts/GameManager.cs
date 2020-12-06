@@ -56,4 +56,9 @@ public class GameManager : MonoBehaviour
     {
         player.GetComponent<PlayerController>().StopTalking();
     }
+
+    public void HurtPlayer()
+    {
+        player.GetComponent<PlayerController>().PlayHurtAnimation();
+    }
 }

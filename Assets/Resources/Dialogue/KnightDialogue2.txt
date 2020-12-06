@@ -1,11 +1,13 @@
-0:Hi, Knight.
-1:Hi back.
-0:What are you
-0:doing?
-1:I'm waiting.
-0:For what?
-1:For you to
-1:leave me.
-0:Oh, bye.
-0:Jerk.
-1:Bye
+0:Hello.
+0:Princess.
+1:Who are you?
+0:What do
+0:you mean?
+0:I'm here for
+0:you.
+1:Oh, no.
+1:One of them
+1:Simps.
+0:Simp?
+1:Just no.
+1:Bye.

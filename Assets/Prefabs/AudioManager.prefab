@@ -53,7 +53,14 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b82e98f7e67002d4db5c5a962a5408be, type: 3}
   - {fileID: 8300000, guid: 199328759a178bd46b1374b30abc089b, type: 3}
   - {fileID: 8300000, guid: ec5b47c1365cf834d88364812b538b70, type: 3}
-  - {fileID: 8300000, guid: a273ac6dd3d612446a0f84dafda8743b, type: 3}
+  - {fileID: 8300000, guid: a883e14586c2647448e069c8e81850af, type: 3}
+  - {fileID: 8300000, guid: 7f0bf18ea0d95824b84361e3cf52a8d9, type: 3}
+  - {fileID: 8300000, guid: 620c2999473a184458121e6b79d7cb24, type: 3}
+  - {fileID: 8300000, guid: f7a5fa5f346fbfb49bf3bb1e58dbcda5, type: 3}
+  - {fileID: 8300000, guid: 35b2b3b89ab5e5c448525267e85ae741, type: 3}
+  - {fileID: 8300000, guid: 55af9bd686a92d744b762624fd27bd8a, type: 3}
+  - {fileID: 8300000, guid: a0aab437b57c00a46bbc19fb0269c872, type: 3}
+  - {fileID: 8300000, guid: 90e0e5c21ec5c544e913b10e249cbe17, type: 3}
   backgroundPlayer: {fileID: 2031657630164830604}
   soundPlayer1: {fileID: 2031657630164830605}
   soundPlayer2: {fileID: 2951204506732638324}

@@ -17,6 +17,7 @@ public class Health : MonoBehaviour
         currentHealth--;
         if (currentHealth <= 0)
         {
+            AudioManager.instance.PlaySound(12);
             Destroy(gameObject);
         }
     }

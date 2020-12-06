@@ -23,6 +23,7 @@ public class PlayerHealth : Health
     public override void TakeDamage()
     {
         currentHealth--;
+        GameManager.instance.HurtPlayer();
         PlayerHealthUI.instance.TakeDamage();
         AudioManager.instance.PlaySound(2);
         if (currentHealth <= 0)
